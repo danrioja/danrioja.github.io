@@ -1,0 +1,56 @@
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+:root {
+    --bg: #2e3440;
+    --fg: #e5e9f0;
+    --icon-size: 80px;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fg);
+    margin: auto;
+    max-width: 67rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+    font-family: Comfortaa;
+}
+
+.item {
+    display: inline-block;
+    margin: auto 16px;
+    margin-top: center;
+}
+
+.image img {
+    max-height: var(--icon-size);
+    border-radius: 18px;
+    box-shadow: 6px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.item p {
+    visibility: hidden;
+}
+
+.item:hover p {
+    visibility: visible;
+    animation: fadeIn ease 0.3s;
+}
+
+a {
+    color: #a9b1c0;
+    text-decoration: none;
+}
+
+p {
+    margin-top: 3px;
+    font-size: 12px;
+}
