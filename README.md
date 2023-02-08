@@ -1,2 +1,2 @@
 # xygon-luna-startpage
- startpage-new tab
+ startpage
